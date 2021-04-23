@@ -1,0 +1,614 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*header start*/
+	    .logo {
+			    font-size: 20px;
+		}
+	    .navbar-nav .nav-link {
+	        text-align: right;
+	    }
+	    .navbar-light .navbar-toggler-icon {
+	        border-radius: 5px;
+	    }
+	    .navbar-light .navbar-toggler {
+	        box-shadow: none;
+	        outline: 0 !important;
+	        box-shadow: 0px 0px 50px 10px #b34747bf;
+	        transition: .5s;
+	    }
+	    .navbar-light .navbar-toggler:hover{
+	    	box-shadow: none;
+	    	border-color: #ffff;
+	    }
+	    .menu ul li a {
+	        font-size: 14px;
+	        font-weight: 400;
+	    }
+	    
+	    .menu ul li a::after{
+	    	display: none;
+	    }
+	/*banner start*/
+		.banner-content {
+		    padding-top: 35px;
+		}
+		.banner-content h1 {
+		    font-size: 23px;
+   			line-height: 10px;
+		}
+		.banner-content p {
+		    padding: 10px 0;
+		    font-size: 14px;
+		    line-height: 20px;
+		}
+		.banner-img{
+			margin-top: 0;
+		}
+		.banner-img img{
+			width: 90%;
+		}
+	/*banner end*/
+	/*header end*/
+
+	/*feature start*/
+		.heading{
+				padding: 0;
+			}
+		
+		.feature-box{
+			margin-top: 20px;
+		}
+		.box1 {
+			margin-top: 20px;
+		    padding: 10px 40px;
+		    height: 160px;
+		}
+		.box2 {
+			margin-top: 20px;
+		    padding: 10px 40px;
+		    height: 160px;
+		}
+		.feature {
+		    padding: 25px 0;
+		}
+		.heading h2 {
+		    font-size: 25px;
+		}
+		.heading p {
+		    font-size: 13px;
+		}
+	/*feature end*/
+
+	/*slider start*/
+		.slider-li img {
+		    width: 36%;
+		}
+		.slider-heading h2 {
+			font-size: 25px;
+		}
+		.slider-heading p {
+		    padding: 0;
+		    font-weight: 400;
+		    font-size: 12px;
+		    color: #fff;
+		    text-shadow: none;
+		}
+		.flipster__button svg {
+		    display: none;
+		}
+	/*slider end*/
+
+	/*about section start*/
+		.about-content {
+		 		text-align: center;
+		}
+		.about-content h4{
+		 		font-size: 18px;
+		}
+		.about-content p{
+		 		font-size: 12px;
+		}
+		.heading h2{
+			font-size: 20px;
+		}
+		.heading p {
+		    	font-size: 14px;
+		}
+		.about-i i {
+		    	padding-bottom: 20px;
+		}
+	/*about section end*/
+
+	/*product section start*/
+	    .cart-box {
+		    width: 60%;
+		    margin-left: 60px;
+		}
+		.img-box h5 {
+    		font-size: 17px;
+    	}
+	/*product section end*/
+
+	/*dna section stat*/
+		.dna-content h1 {
+		    margin-top: 25px;
+		    font-size: 24px;
+		    text-align: center;
+		}
+		.dna {
+		    padding: 30px 0;
+		}
+		.dna-content p {
+		    margin-top: 20px;
+		    font-size: 14px;
+		    line-height: 20px;
+		    word-spacing: 0px;
+		}
+	/*dna section end*/
+
+	/*count section start*/
+		.count {
+		    padding: 50px 0 30px;
+		}
+		.details{
+			padding-bottom: 20px;
+		}
+		.details h4 {
+		    font-size: 20px;
+		}
+		.details p {
+		    font-size: 13px;
+		    font-weight: 500;
+		}
+	/*count section end*/
+
+	/*question section start*/
+		.question {
+		    padding: 30px 0 40px 0;
+		}
+		dl.questions dt {
+		    font-size: 12px;
+		    padding: 12px;
+		    margin-bottom: 14px;
+		} 
+		dl.questions dd {
+		    margin-top: -14px;
+		    margin-bottom: 10px;
+		    padding: 15px;
+		    font-size: 13px;
+		}
+	/*question section start*/
+
+	/*contact section start*/
+	    .contact {
+		    padding: 0px 0px 50px 0;
+		}
+	    .contact-content {
+		    margin-bottom: 30px;
+		    margin-left: none;
+		}
+    	.contact-content h1 {
+    		text-align: center;
+		    font-size: 28px;
+		}
+		.contact-content p {
+			text-align: justify;
+		    margin-top: 15px;
+		    padding-right: 0;
+		    font-size: 13px;
+		    line-height: 22px;
+		}
+	/*contact section end*/
+
+	/*fotter section start*/
+		.footer-logo a {
+		    font-size: 12px;
+		}
+		.footer-menu ul a {
+		    font-size: 7px;
+		    margin-left: 5px;
+		}
+	/*fotter section start*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+		.logo {
+		    font-size: 20px;
+		}
+	    .navbar-nav .nav-link {
+	        text-align: right;
+	    }
+	    .navbar-light .navbar-toggler-icon {
+	        border-radius: 5px;
+	    }
+	    .navbar-light .navbar-toggler {
+	        box-shadow: none;
+	        outline: 0 !important;
+	        box-shadow: 0px 0px 50px 10px #b34747bf;
+	        transition: .5s;
+	    }
+	    .navbar-light .navbar-toggler:hover{
+	    	box-shadow: none;
+	    	border-color: #ffff;
+	    }
+	    .menu ul li a {
+	        font-size: 14px;
+	        font-weight: 400;
+	    }
+	    
+	    .menu ul li a::after{
+	    	display: none;
+	    }
+	/*header end*/
+
+	/*banner start*/
+		.banner-content {
+		    padding-top: 40px;
+		}
+		.banner-content h1 {
+		    font-size: 40px;
+		    line-height: 45px;
+		}
+		.banner-content p {
+		    padding: 15px 0;
+		    font-size: 14px;
+		}
+		.banner-img{
+			margin-top: 0;
+		}
+		.banner-img img{
+			width: 65%;
+		}
+	/*banner end*/
+
+	/*feature start*/
+		.heading{
+			padding: 0;
+			padding: 0 0px 35px 0;
+		}
+		.heading h2 {
+		    font-size: 30px;
+		}
+		.heading {
+		  	  
+		}
+		.box1 {
+			margin-top: 25px;
+			padding: 15px;
+			height: 230px;
+		}
+		.box2 {
+			padding: 15px;
+			height: 230px;
+		    margin-top: 75px;
+		}
+	/*feature end*/
+
+	/*slider start*/
+		.slider-li img {
+		    width: 36%;
+		}
+
+		.slider-heading p {
+		    padding: 0;
+		    font-weight: 400;
+		    font-size: 13px;
+		    color: #fff;
+		    text-shadow: none;
+		}
+		.flipster__button svg {
+		    font-size: 6px;
+		}
+	/*slider end*/
+
+	/*about section start*/
+		.about-content {
+		 	text-align: center;
+		}
+		.heading p {
+		    font-size: 13px;
+		}
+		.about-i i {
+		    padding-bottom: 20px;
+		}
+	/*about section end*/
+
+	/*product section start*/
+		.img-box img {
+		    padding-left: 50px;
+		}
+		.cart-box {
+		    width: 35%;
+    		margin-left: 175px;
+		}
+	/*product section end*/
+
+	/*dna section stat*/
+		.dna-img img{
+			margin-left: 25px;
+		}
+		.dna-content h1 {
+		    margin-top: 30px;
+		    font-size: 30px;
+		    text-align: center;
+		}
+		.dna {
+		    padding: 40px 0;
+		}
+	/*dna section end*/
+
+	/*count section start*/
+		.count {
+		    padding: 50px 0 30px;
+		}
+		.details{
+			padding-bottom: 30px;
+		}
+		.details h4 {
+		    font-size: 20px;
+		}
+		.details p {
+		    font-size: 13px;
+		    font-weight: 500;
+		}
+	/*count section end*/
+
+	/*client section start*/
+		.client-img {
+		    margin-top: 35px;
+		}
+		.client-content-ref {
+		    text-align: center;
+		    padding: 0 20px 10px 30px;
+		}
+		.client-content-ref h6 {
+		    font-size: 12px;
+		}
+		.client-content-ref p {
+		     padding-right: 0; 
+		    font-size: 10px;
+		}
+    /*client section end*/
+
+    /*contact section start*/
+	    .contact {
+		    padding: 45px 0px 70px 0;
+		}
+	    .contact-content {
+		    margin-bottom: 30px;
+		    margin-left: none;
+		}
+    	.contact-content h1 {
+    		text-align: center;
+		    font-size: 28px;
+		}
+		.contact-content p {
+			text-align: center;
+		    margin-top: 15px;
+		    padding-right: none;
+		    font-size: 13px;
+		    line-height: 22px;
+		}
+	/*contact section end*/
+
+	/*fotter section start*/
+		.footer-logo a {
+		    font-size: 17px;
+		}
+		.footer-menu ul a {
+		    font-size: 11px;
+		}
+	/*fotter section start*/
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+		.logo {
+		    font-size: 25px;
+		}
+	    .navbar-nav .nav-link {
+	        text-align: right;
+	    }
+	    .navbar-light .navbar-toggler-icon {
+	        border-radius: 5px;
+	    }
+	    .navbar-light .navbar-toggler {
+	        box-shadow: none;
+	        outline: 0 !important;
+	        box-shadow: 0px 0px 50px 10px #b34747bf;
+	        transition: .5s;
+	    }
+	    .navbar-light .navbar-toggler:hover{
+	    	box-shadow: none;
+	    	border-color: #ffff;
+	    }
+	    .menu ul li a {
+	        font-size: 14px;
+	        font-weight: 400;
+	    }
+	    
+	    .menu ul li a::after{
+	    	display: none;
+	    }
+	/*header end*/
+
+	/*banner start*/
+		.banner-content h1 {
+		    font-size: 40px;
+		    line-height: 45px;
+		}
+		.banner-content p {
+		    padding: 15px 0;
+		    font-size: 14px;
+		}
+		.banner-img{
+			margin-top: 50px;
+		}
+	/*banner end*/
+
+	/*slider start*/
+		.slider-heading p {
+		    padding: 0;
+		    font-weight: 400;
+		    font-size: 14px;
+		    color: #fff;
+		    text-shadow: none;
+		}
+		.flipster__button svg {
+		    font-size: 10px;
+		}
+	/*slider end*/
+
+	/*feature start*/
+		.box1 {
+			 margin-top: 25px;
+			padding: 15px;
+			height: 230px;
+		}
+		.box2 {
+			padding: 15px;
+			height: 230px;
+		    margin-top: 75px;
+		}
+		.feature-heading {
+		  	  padding: 0 0px 35px 0;
+		}
+		.feature-box{
+			margin-top: 30px;
+		}
+	/*feature end*/
+
+	/*about section start*/
+		.about-content {
+		 		text-align: center;
+		}
+		.heading p {
+		    	font-size: 14px;
+		}
+		.about-i i {
+		    	padding-bottom: 10px;
+		}
+	/*about section end*/
+
+	/*product section start*/
+	    .cart-box {
+		    width: 60%;
+		    margin-left: 65px;
+		}
+	/*product section end*/
+
+	/*dna section start*/
+		.dna-content h1 {
+		     margin-top: 0; 
+		    font-size: 30px;
+		}
+		.dna-content p {
+		    margin-top: 15px;
+		    font-size: 14px;
+		    line-height: 20px;
+		    word-spacing: 0px;
+		}
+	/*dna section end*/
+
+	/*count section start*/
+		.count {
+		    padding: 50px 0 30px;
+		}
+		.details{
+			padding-top: 20px;
+		}
+		.details h4 {
+		    font-size: 20px;
+		}
+		.details p {
+		    font-size: 13px;
+		    font-weight: 500;
+		}
+	/*count section end*/
+
+	/*client section start*/
+		.client-img {
+		    margin-top: 35px;
+		}
+		.client-content-ref {
+		    text-align: center;
+		    padding: 0 20px 10px 30px;
+		}
+    /*client section end*/
+
+    /*contact section start*/
+    	.contact-content h1 {
+		    font-size: 28px;
+		}
+		.contact-content p {
+		    margin-top: 15px;
+		    padding-right: 30px;
+		    font-size: 13px;
+		    line-height: 22px;
+		}
+	/*contact section end*/
+
+	/*fotter section start*/
+		.footer-logo a {
+		    font-size: 20px;
+		}
+		.footer-menu ul a {
+		    font-size: 14px;
+		}
+	/*fotter section start*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*header start*/
+	    .img-fluid {
+	        max-width: 100%;
+	    }
+	    .menu ul li a {
+	        font-size: 15px;
+	    }
+    /*header end*/
+
+    /*feature section start*/
+	    .box1 {
+		    padding: 10px 11px;
+		}
+		.box2 {
+		    padding: 10px 11px;
+		}
+	/*feature section end*/
+	
+    /*product section start*/
+	    .cart-box {
+		    width: 60%;
+		    margin-left: 65px;
+		}
+		.img-box h5 {
+		    font-size: 19px;
+		}
+	/*product section end*/
+
+	/*client section start*/
+		
+    /*client section end*/
+}
+
+/*Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+	/*product section start*/
+	    /*.cart-box {
+		    width: 45%;
+		    margin-left: 115px;
+		}*/
+	/*product section end*/
+
+}
