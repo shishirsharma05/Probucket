@@ -78,8 +78,8 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		border-radius: 5px;
-		box-shadow: 4px 7px 33px 5px #652824a8;
-		background: #000;
+		box-shadow: 4px 7px 33px 5px #d00555;
+		background: #f90364;
 		width: 50%;
 		height: 50px;
 		padding: 10px 30px;
@@ -89,8 +89,7 @@
 	.banner-content a:hover{
 		box-shadow: none;
 		border: 1px solid #fff;
-		background: #f10260;
-
+		background: #f60262;
 	}
 
 	.banner-img{
@@ -612,7 +611,7 @@ dl.questions .expanded_img {
 
 /*footer section start*/
 footer{
-	background-color: red;
+	background-image: url(../img/banner.png);
 	padding: 30px 0;
 		
 }
